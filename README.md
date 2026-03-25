@@ -1,25 +1,35 @@
 # trail-map
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A web application that displays a map with information about mountains and their 3D terrain.
+登山路マップ
+
+**Live demo**: https://code4fukui.github.io/trail-map/
 
 ## Features
-- Display a map with markers for various mountains
-- Click on a mountain marker to see its information and access a 3D terrain view
-- Select a mountain from a dropdown to center the map on it
 
-## Requirements
-This project uses the following libraries:
-- OpenLayers (v7.1.0)
-- GeoLib (v3.3.3)
-- Three.js
+- 3d visualization
+- CSV data parsing
 
-## Usage
-1. Clone the repository: `git clone https://github.com/EiichiMiyagawa/trail-map.git`
-2. Open the `index.html` file in a web browser to view the application.
+## Technology Stack
 
-## Data / API
-The mountain data and terrain information is sourced from Wikipedia and the Geospatial Information Authority of Japan.
+**Browser modules (ES imports):**
+
+- [`OLMap.js`](https://eiichimiyagawa.github.io/OLMap/v1/OLMap.js)
+- [`CSV.js`](https://js.sabae.cc/CSV.js)
+
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/trail-map/
+
+## Data Sources
+
+- DATA: ウィキペディア
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
